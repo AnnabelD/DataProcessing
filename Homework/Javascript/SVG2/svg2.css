@@ -1,0 +1,111 @@
+/* Annabel Droste */
+
+#svg2985{
+	position: absolute;
+/*	width: 80%;
+	height: 80%;*/
+}
+
+p{
+	position:relative;	
+}
+
+h2{
+	text-align:center;
+}
+#data{
+	visibility: hidden;
+	position:absolute;
+}
+
+
+#legend{
+	position:relative;
+	fill: transparent;
+	stroke: black;
+}
+
+#legend0{
+	fill: #ffffd4;
+	stroke: black;
+}
+
+#legend1{
+	fill:#fed98e;
+	stroke:black;
+}
+
+#legend2{
+	fill: #fe9929;
+	stroke: black;
+}
+
+#legend3{
+	fill: #d95f0e;
+	stroke: black;
+}
+
+#legend4{
+	fill: #993404;
+	stroke: black;
+}
+
+#legend5{
+	fill: #000000;
+	stroke: black;
+}
+/*
+ * Circles around small countries
+ *
+ * Change opacity to 1 to display all circles.
+ *
+ */
+.circlexx
+{
+   opacity:0;
+   fill:#e0e0e0;
+   stroke:#000000;
+   stroke-width:0.5;
+}
+
+/*
+ * Smaller circles around French DOMs and Chinese SARs
+ *
+ * Change opacity to 1 to display all subnational circles.
+ *
+ */
+.subxx
+{
+   opacity:0;
+   stroke-width:0.3;
+}
+
+
+/*
+ * land
+ */
+.landxx
+{
+   stroke:#ffffff;
+   stroke-width:0.5;
+}
+
+/*
+ * Styles for coastlines of islands with no borders
+ */
+.coastxx
+{
+   stroke:#ffffff;
+   stroke-width:0.3;
+}
+
+/*
+ * Ocean
+ */
+.oceanxx
+{
+   opacity: 1;
+   stroke:#000;
+   stroke-width:0.5;
+   stroke-miterlimit:1;
+}
