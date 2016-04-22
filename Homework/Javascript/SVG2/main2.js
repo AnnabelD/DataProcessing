@@ -1,7 +1,8 @@
 /* Annabel Droste */
 /* use this to test out your function */
 window.onload = function() {
- 	colorData();	
+ 	changeColor(ocean,"#deebf7")
+    colorData();	
 }
 
 /* changeColor takes a path ID and a color (hex value)
