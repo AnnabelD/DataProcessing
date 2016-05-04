@@ -1,0 +1,21 @@
+<!DOCTYPE>
+
+<!-- Annabel Droste 
+ d3 map -->
+
+ <html>
+ 	<head>
+ 		<title> Map </title>
+ 		<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+		<script src="//datamaps.github.com/scripts/datamaps.world.min.js"></script>	
+		<script src="d3map.js"></script>
+ 	</head>
+ 	<body>
+ 		<h2>The population size of countries in the world</h2>
+ 		<div id="map" style="position: relative; width: 600px; height: 300px;"></div>
+ 		<p>This visualisation shows the population sizes of countries in the world. It is colorcoded (see legend). The colors were chosen with the help of colorbrewer. Green countries either lack data, or the way the country names were written in the original json file did not correspond with the format in the country_codes list. Unfortunately I could not figure out how to add this to the legend. </p>
+ 		<p>The interactivity of this visualisation allows users to hover over the country and to see the country name and the population size. The country turns green (lighter green than the no data countries) in order to show which country was selected. I chose the color green because it fits in the color scheme, but is distinct enough from the other colors so there is no possibility for confusion.</p>
+ 	</body>
+ </html>
+
