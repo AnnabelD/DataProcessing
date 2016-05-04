@@ -1,0 +1,25 @@
+/* Annabel Droste */ 
+
+.barchart1{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.x_axis{
+	fill: none;
+	stroke: black;
+}
+
+.y_axis{
+	fill: none;
+	stroke: black;
+}
+
+rect{
+	fill:blue;
+}
+
+
+
+
