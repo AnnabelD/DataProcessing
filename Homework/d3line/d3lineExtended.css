@@ -1,0 +1,31 @@
+/* Annabel Droste */
+
+.x, .y {
+	stroke: blue;
+	stroke-dasharray: 3,3;
+	opacity: 0.5;
+}
+
+.y1, .y3 {
+	background-color: white;
+	stroke: black;
+	font-size: 12;
+}
+
+.x_axis, .y_axis {
+	stroke: black;
+	fill: none;
+}
+
+text{
+	stroke: black;
+	font-size: 12;
+}
+
+path {
+	fill: none;
+}
+
+p {
+	position: absolute;
+}
