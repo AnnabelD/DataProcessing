@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Annabel Droste -->
+<html>
+	<head>
+		<title>Ecological Footprint</title>
+		<link rel="stylesheet" href="D3LinkedViews.css"/>
+ 		<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+		<script src="//datamaps.github.com/scripts/datamaps.world.min.js"></script>	
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<script src="https://d3js.org/d3-queue.v2.min.js"></script>
+		<script src="maplinkedviews.js"></script>
+	</head>
+	<body>
+		<h2>Populations sizes of countries, their well-being and their ecological footprints</h2>
+		<div id="map" style="position: relative; width: 600px; height: 300px;"></div>
+		<br>
+		<svg class="barchart1"></svg>
+		<svg class="scatterplot"></svg>
+		<p> All the data of these visualizations come from the Happy Life index (http://www.happyplanetindex.org/)</p>
+		<h5>The Ecological Footprint</h5>
+		<p>The ecological footprint is a measure for how much land is needed to sustain one's population.
+		Thus if a country has an ecological footprint of 2, to sustain it's own population it would need a land area of twice its own size.</p>
+		<h5> Well-being</h5>
+		<p>The well-being of a population is based on the Gallup World Poll, which is a questionnaire that questioned 1000 individuals over 15 in each country.</p>
+		<h5> The Story</h5>
+		<p>These data show that there is some sort of correlation (not causation) between well-being and ecological footprint. The data could be used to support a 
+		story about the influence of experienced well-being on the ecological footprint, although it would have to be supported by some evidence that there is also causation.</p>
+		<h5>Design</h5>
+		<p>The colour schemes of these visualizations are basically the same. All data is expressed in a shade of blue ("no data" is grey) and if a datapoint
+		is selected it becomes green to attract the attention. The Scatterplot shows the overall trend of the data and allows to look for outliers. 
+		The barchart allows the user to compare a country with the world average, and the map visualization enables the user to make a link to population size.
+		Although that link would be easier to explore in another scatter plot. For example population size plotted against well-being or footprint, perhaps with
+		buttons, so that the user can decide for him/herself which trend should be made visible. 
+		It would have been best to include units in the labels of the plots, unfortunately, neither ecological footprint nor well-being have very understandable 
+		units.</p>
+		<p>Annabel Droste</p>
+	</body>
+</html>

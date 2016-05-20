@@ -1,0 +1,32 @@
+/* Annabel Droste */
+
+.axis{
+	stroke: black;
+	fill: none;
+}
+
+.axis1{
+	fill: none;
+}
+
+text{
+	stroke: black;
+}
+
+rect{
+	fill: blue;
+}
+
+#map{
+	display:block;
+	position:absolute;
+}
+
+.barchart1{
+	position: relative;
+}
+
+.scatterplot{
+	position: relative;
+}
+
